@@ -1,0 +1,47 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: $background-color;
+  color: white;
+  min-height: 100vh;
+}
+body {
+  background-image: url(../../imgs/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: $div-background-color;
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.form-check-inline {
+  padding-left: 1px;
+}
+
+.btnSend {
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover {
+    background-color: $button-color;
+    color: white;
+  }
+}
+
+.footer {
+  margin-top: 30px;
+  color: white;
+}

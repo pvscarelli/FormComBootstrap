@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #292929;
+  color: white;
+  min-height: 100vh;
+}
+
+body {
+  background-image: url(../../imgs/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.form-check-inline {
+  padding-left: 1px;
+}
+
+.btnSend {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}
+.btnSend:hover {
+  background-color: #ff0043;
+  color: white;
+}
+
+.footer {
+  margin-top: 30px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
